@@ -3,22 +3,22 @@ export function Headerright(){
     return(
         <div>
             <div>
-                <span>Welcome to Little Learners Academy</span>
-                <h1>Where Young Minds Blossom and <span>Dreams Take Flight.</span> </h1>
-                <p>Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!</p>
+                <span className={styles.spantitle} >Welcome to Little Learners Academy</span>
+                <h1 className={styles.title}>Where Young Minds Blossom and <span className={styles.spanp}>Dreams Take Flight.</span> </h1>
+                <p className={styles.descp}>Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!</p>
             </div>
             <div className={styles.Rate}>
                 <div >
-                    <span>+7000</span>
-                    <span>Students Passed Out</span>
+                    <span className={styles.spanrate}>+7000</span>
+                    <span className={styles.spanrate2}>Students Passed Out</span>
                 </div>
                 <div>
-                    <span>+37</span>
-                    <span>Awards & Recognitions</span>
+                    <span className={styles.spanrate}>+37</span>
+                    <span className={styles.spanrate2}>Awards & Recognitions</span>
                 </div>
                 <div>
-                    <span>+15</span>
-                    <span>Experience Educators</span>
+                    <span className={styles.spanrate}>+15</span>
+                    <span className={styles.spanrate2}>Experience Educators</span>
                 </div>
             </div>
         </div>
