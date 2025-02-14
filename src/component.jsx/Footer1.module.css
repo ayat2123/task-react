@@ -2,4 +2,44 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 1594;
+height: 348;
+gap: 80px;
+}
+.logo{
+    margin-top: 20px ;
+  
+}
+.p{
+    width: 519px;
+height: 60;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: rgba(76, 76, 77, 1);
+
+}
+.spanbox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.span{
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+    
+}
+.img{
+    width: 40;
+height: 40;
+gap: 10px;
+border-radius: 6px;
+padding: 8px;
+background: rgba(255, 245, 240, 1);
+}
+.ul{
+    
 }

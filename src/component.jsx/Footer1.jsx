@@ -1,14 +1,26 @@
+import email from "../assets/email.png"
+import tel from "../assets/tel.png"
+import location from "../assets/location.png"
 import styles from "./Footer1.module.css"
-import { LogoNav } from "./LogoNav"
+import Logo from "../assets/Logo.png"
 export function Footer1(){
     return(
         <div className={styles.Footer1}>
             <div>
-                <LogoNav/>
-                <p>We believe in the power of play to foster creativity, problem-solving skills, and imagination.</p>
-                <span>hello@littlelearners.com</span>
-                <span>+91 91813 23 2309</span>
-                <span>Somewhere in the World</span>
+               <img  className={styles.logo} src={Logo} alt="" />
+                <p className={styles.p}>We believe in the power of play to foster creativity, problem-solving skills, and imagination.</p>
+                <div className={styles.spanbox}>
+                   <img className={styles.img} src={email} />
+                    <span className={styles.span}>  hello@littlelearners.com</span>
+                </div>
+                <div className={styles.spanbox}>
+                    <img className={styles.img} src={tel} />
+                    <span className={styles.span}> +91 91813 23 2309</span>
+                </div>
+                <div className={styles.spanbox}>
+                    <img className={styles.img} src={location} />
+                    <span className={styles.span}> Somewhere in the World</span>
+                </div>
             </div>
             <div>
                 <ul>
