@@ -3,10 +3,11 @@ import styles from "./Msection3.module.css"
 export function Msection3(){
     return(
         <div className={styles.Msection3}>
-            <div>
+            <div className={styles.part1}>
                 <span>Explore More</span>
                 <h1>Navigate through our Pages</h1>
-                <p>Your gateway to discovering a wealth of valuable information about our kindergarten school, Feel free to explore and learn more about the enriching experiences that await your child at our kindergarten school</p>
+                <p>Your gateway to discovering a wealth of valuable information about our kindergarten school, Feel free to explore
+                     and learn more about the enriching experiences that await your child at our kindergarten school</p>
             </div>
             <div className={styles.Msection3box}>
                 <div className={styles.Msection3boxes}>

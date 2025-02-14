@@ -2,7 +2,7 @@ import styles from "./Msection1.module.css"
 export function Msection1(){
     return(
         <div className={styles.Msection1}>
-            <div className={styles.Msectiondes}>
+            <div className={styles.part3}>
                 <span>Children Deserve Bright Future</span>
                 <h1>Our Benefits</h1>
                 <p>With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum, we aim to lay a strong foundation for your child's future.</p>

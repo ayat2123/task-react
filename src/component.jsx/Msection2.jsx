@@ -2,7 +2,7 @@ import styles from "./Msection2.module.css"
 export function Mensection2(){
     return(
         <div className={styles.Msection2}>
-            <div>
+            <div className={styles.part1}>
                 <span>Their Happy Words 🤗</span>
                 <h1>Our Testimonials</h1>
                 <p>Our testimonials are heartfelt reflections of the nurturing environment we provide, where children flourish both academically and emotionally.</p>
