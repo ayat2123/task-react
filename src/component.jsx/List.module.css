@@ -1,6 +1,32 @@
 .List{
     display: flex;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
     gap:20px;
-    padding-right: 20px;
+}
+.List li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+
+.List li:last-child{
+    padding-top: 29px;
+    padding-right: 36px;
+    padding-bottom: 20px;
+    padding-left: 34px;
+    background: rgba(255, 174, 128, 1);
+    border-left: 2px solid rgba(38, 38, 38, 1);
+    margin-right:0.5px;
+    margin-top: 0px;
+}
+.List li{
+    padding-top: 29px;
+    padding-right: 36px;
+    padding-bottom: 20px;
+    padding-left: 34px;
+    border-left: 2px solid rgba(38, 38, 38, 1);
 }
