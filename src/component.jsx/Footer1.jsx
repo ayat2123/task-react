@@ -1,7 +1,10 @@
+import styles from "./Footer1.module.css"
+import { LogoNav } from "./LogoNav"
 export function Footer1(){
     return(
-        <div>
+        <div className={styles.Footer1}>
             <div>
+                <LogoNav/>
                 <p>We believe in the power of play to foster creativity, problem-solving skills, and imagination.</p>
                 <span>hello@littlelearners.com</span>
                 <span>+91 91813 23 2309</span>
