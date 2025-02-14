@@ -10,20 +10,21 @@ export function Footer1(){
                <img  className={styles.logo} src={Logo} alt="" />
                 <p className={styles.p}>We believe in the power of play to foster creativity, problem-solving skills, and imagination.</p>
                 <div className={styles.spanbox}>
-                   <img className={styles.img} src={email} />
-                    <span className={styles.span}>  hello@littlelearners.com</span>
+                   <img  src={email} />
+                    <span >  hello@littlelearners.com</span>
                 </div>
                 <div className={styles.spanbox}>
-                    <img className={styles.img} src={tel} />
-                    <span className={styles.span}> +91 91813 23 2309</span>
+                    <img  src={tel} />
+                    <span > +91 91813 23 2309</span>
                 </div>
                 <div className={styles.spanbox}>
-                    <img className={styles.img} src={location} />
-                    <span className={styles.span}> Somewhere in the World</span>
+                    <img  src={location} />
+                    <span > Somewhere in the World</span>
                 </div>
             </div>
-            <div>
-                <ul>
+            <div className={styles.listbox}>
+                    <div>
+                <ul className={styles.ul}>
                     <li><a href="">Home</a></li>
                     <li><a href="">Features</a></li>
                     <li><a href="">Our Testimonials</a></li>
@@ -31,7 +32,7 @@ export function Footer1(){
                 </ul>
             </div>
             <div>
-                <ul>
+                <ul className={styles.ul} >
                     <li><a href="">About Us</a></li>
                     <li><a href="">Our Mission</a></li>
                     <li><a href="">Our Vission</a></li>
@@ -41,19 +42,21 @@ export function Footer1(){
                 </ul>
             </div>
             <div>
-                <ul>
+                <ul className={styles.ul}>
                     <li><a href="">Academics</a></li>
                     <li><a href="">Special Features</a></li>
                     <li><a href="">Gallery</a></li>
                 </ul>
             </div>
             <div>
-                <ul>
+                <ul className={styles.ul}>
                     <li><a href="">Contact Us</a></li>
                     <li><a href="">Information</a></li>
                     <li><a href="">Map & Direction</a></li>
                 </ul>
+            </div> 
             </div>
+       
         </div>
     )
 }
